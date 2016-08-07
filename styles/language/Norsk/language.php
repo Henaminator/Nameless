@@ -17,7 +17,7 @@ $admin_language = array(
 	// General terms
 	'admin_cp' => 'AdminCP', 
 	'invalid_token' => 'Ugyldig token, prøv igjen.',
-	'invalid_action' => 'Ugyldig handling',
+	'invalid_action' => 'Ugyldig handling.',
 	'successfully_updated' => 'Vellykket oppdatering',
 	'settings' => 'Innstillinger',
 	'confirm_action' => 'Bekreft handling',
@@ -287,7 +287,7 @@ $admin_language = array(
 	'install_theme' => 'Installer Theme',
 	'install_template' => 'Installer Template',
 	'install_addon' => 'Installer Addon',
-	'install_a_theme' => 'Installer en tema',
+	'install_a_theme' => 'Installer et tema',
 	'install_a_template' => 'Installer en template',
 	'install_an_addon' => 'Installer en addon',
 	'active' => 'Aktiv',
@@ -494,8 +494,8 @@ $user_language = array(
 	// Profile page
 	'profile' => 'Profil',
 	'player' => 'Spiller',
-	'offline' => 'Offline',
-	'online' => 'Online',
+	'offline' => 'Frakoblet',
+	'online' => 'Pålogget',
 	'pf_registered' => 'Registrert:',
 	'pf_posts' => 'Innlegg:',
 	'pf_reputation' => 'Rykte:',
@@ -624,11 +624,11 @@ $general_language = array(
 	'online' => 'Online',
 	'offline' => 'Offline',
 	'status' => 'Status:',
-	'players_online' => 'Spillere Online:',
+	'players_online' => 'Spillere Pålogget:',
 	'queried_in' => 'Spørres i:',
 	'server_status' => 'Server Status',
-	'no_players_online' => 'Det er ingen spillere online!',
-	'x_players_online' => 'Det er {x} spillere online.', // Don't replace {x}
+	'no_players_online' => 'Det er ingen spillere pålogget!',
+	'x_players_online' => 'Det er {x} spillere pålogget.', // Don't replace {x}
 	
 	// Other
 	'page_loaded_in' => 'Siden lastet på {x}s', // Don't replace {x}; 's' stands for 'seconds'
@@ -724,11 +724,11 @@ $forum_language = array(
 	// Other
 	'forum_error' => 'Beklager, men vi kunne ikke finne at forum eller emne',
 	'are_you_logged_in' => 'Er du logget inn?',
-	'online_users' => 'Brukere Online',
-	'no_users_online' => 'Det er ingen brukere i online',
+	'online_users' => 'Brukere Pålogget',
+	'no_users_online' => 'Det er ingen brukere i pålogget',
 	
 	// Search
-	'search_error' => 'Vennligst skriv inn et søk på mellom 1 og 32 tegn.',
+	'search_error' => 'Ditt søk må være i mellom 1 til 32 tegn.',
 	
 	//Share on a social-media.
 	'sm-share' => 'Del',
@@ -780,7 +780,7 @@ $table_language = array(
  *  API language
  */
 $api_language = array(
-	'register' => 'Registrering Fullført'
+	'register' => 'Registrering Fullført!'
 );
  
 ?>
